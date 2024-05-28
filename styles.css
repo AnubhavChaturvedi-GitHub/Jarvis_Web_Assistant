@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0e0e0e;
+    color: #00e5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    color: #050a0a;
+    position: relative;
+}
+.jarvis-interface {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid #00e5ff;
+    background: linear-gradient(90deg, rgba(0,229,255,1) 0%, rgba(0,255,209,1) 50%, rgba(0,255,229,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 0 50px rgba(0, 229, 255, 0.5);
+}
+
+.jarvis-interface h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.jarvis-animation {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.jarvis-animation .circle {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #01c43c;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+}
+
+
+
+#messages {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #00e5ff;
+    color: #0e0e0e;
+    align-self: flex-end;
+}
+
+.jarvis-message {
+    background-color: #0e0e0e;
+    border: 1px solid #00e5ff;
+    color: #00e5ff;
+    align-self: flex-start;
+}
