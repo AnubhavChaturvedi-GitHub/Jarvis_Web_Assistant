@@ -12,7 +12,9 @@ This is a simple web-based AI assistant that listens to voice commands and perfo
 - Save API key for accessing external services (optional)
 
 
-![Screenshot 2]()
+![Screenshot 2](https://github.com/AnubhavChaturvedi-GitHub/Jarvis_Web_Assistant/blob/main/Automation%20(1).png)
+
+![Video Link](https://www.youtube.com/live/gD23J1hZblQ?si=dOGxIsfU9Zjg2Elc)
 
 ## Getting Started
 
