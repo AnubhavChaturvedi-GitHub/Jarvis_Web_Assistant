@@ -1,6 +1,8 @@
 
 # Jarvis Web Page
 
+![Screenshot 1](https://github.com/AnubhavChaturvedi-GitHub/Jarvis_Web_Assistant/blob/main/Screenshot%202024-05-28%20224636.png)
+
 This is a simple web-based AI assistant that listens to voice commands and performs various actions, such as opening websites and searching on Google or YouTube. It utilizes speech recognition and synthesis to interact with the user.
 
 ## Features
@@ -9,9 +11,7 @@ This is a simple web-based AI assistant that listens to voice commands and perfo
 - Open YouTube, Instagram, Google search, and YouTube search with voice commands
 - Save API key for accessing external services (optional)
 
-## Screenshots
 
-![Screenshot 1]()
 ![Screenshot 2]()
 
 ## Getting Started
